@@ -6,5 +6,5 @@ A collection of helpful Bash utility scripts so I can remember them instead of i
 |---|---|
 |Concatinates .json files| jq -s 'reduce .[] as $item ({}; . * $item)' *.json > ouputFile.json|
 |Print just the wordcount of .txt files|wc -w *.txt|
-|Save a list of all files in your current directory|ls>listOfFiles.txt|
+|Save a list of all files in your current directory|ls>list-of-files.txt|
 |Check the character encoding of a file|file -i file-name.txt|
